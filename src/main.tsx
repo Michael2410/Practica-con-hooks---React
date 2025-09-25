@@ -1,12 +1,15 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
+import { MemoHook } from './06-memos/MemoHook'
+//import { ScrambleWords } from './05-useReducer/ScrambleWords';
+//import { TasksApp } from './05-useReducer/TaskApp'
 //import { HooksApp } from './HooksApp'
 //import { TrafficLight } from './02-useEffect/TrafficLight';
 //import { TrafficLightWhitEffect } from './02-useEffect/TrafficLightWithHook';
 //import { TrafficLightWithHook } from './02-useEffect/TrafficLightWithEffect copy';
 //import { PokemonPage } from './03-examples/PokemonPage';
-import {FocusScreen} from './04-useRef/FocusScreen';
+//import { FocusScreen } from './04-useRef/FocusScreen';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -15,6 +18,9 @@ createRoot(document.getElementById('root')!).render(
     {/*<TrafficLightWhitEffect />*/}
     {/*<TrafficLightWithHook />*/}
     {/*<PokemonPage />*/}
-    <FocusScreen />
+    {/*<FocusScreen />*/}
+    {/*<TasksApp />*/}
+    {/*<ScrambleWords  />*/}
+    <MemoHook />
   </StrictMode>,
 )
